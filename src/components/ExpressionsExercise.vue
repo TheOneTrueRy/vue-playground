@@ -9,16 +9,27 @@
             below:
           </p>
 
-          <p>{{}}</p>
+          <p>{{69 * 64}}</p>
         </div>
         <div class="border p-1">
           <p>
             Use interpolation to get the customary Hello, World! to display on
             the screen. Don't forget your quotes
           </p>
-          <p>{{}}</p>
+          <p>{{hello}}</p>
         </div>
       </div>
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  setup(){
+    let hello = "Hello, World!"
+    return{
+      hello
+    }
+  }
+}
+</script>
